@@ -9,6 +9,9 @@ The Two Tower Retrieval Recommendation System revolutionizes personalized recomm
 The Two Tower Retrieval Recommendation System comprises two distinct neural networks: one dedicated to users and the other to items. Each network processes entity-specific features and generates embeddings, representing users and items in a high-dimensional space. This architecture allows the system to capture intricate user preferences and detailed item characteristics for precise recommendation matching.
 
 ![Two Tower Architecture](img/model.png)
+## Training
+The Two Tower Recommendation System is trained using binary cross-entropy as the loss function. The system utilizes Hugging Face Transformer for generating embeddings. We employ the DistilBERT model, specifically distilbert-base-uncased, for embedding generation.
+![Architecture](img/Instagram-Explore-Ranking_image2.webp)
 ## Online Retrieval
 During online retrieval, the query tower dynamically generates a user embedding using real-time user-side features. This embedding serves as a representation of the user's preferences and characteristics. The system then utilizes an online approximate nearest neighbors (ANN) search service, such as Annoy search, to efficiently identify the most relevant items for the given user.
 
