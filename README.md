@@ -13,7 +13,7 @@ The Two Tower Retrieval Recommendation System comprises two distinct neural netw
 During online retrieval, the query tower dynamically generates a user embedding using real-time user-side features. This embedding serves as a representation of the user's preferences and characteristics. The system then utilizes an online approximate nearest neighbors (ANN) search service, such as Annoy search, to efficiently identify the most relevant items for the given user.
 
 By leveraging the user embedding and ANN search, the system can quickly retrieve a subset of items that are likely to be of interest to the user. This process enables the system to deliver timely and accurate recommendations, enhancing the user experience and increasing engagement.
-![Offline Architecture](img/model.png)
+![Offline Architecture](img/Instagram-Explore-Ranking_image6.webp)
 ## Files Included
 
 1. `ttrecsys.ipynb`: Jupyter notebook for training the Two Tower model and evaluating the trained model's performance.
