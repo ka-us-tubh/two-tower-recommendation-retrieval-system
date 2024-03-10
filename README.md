@@ -46,5 +46,3 @@ Experiment with different hyperparameters, data preprocessing techniques, and mo
 ## Author
 
 Kaustubh Gupta
-
-Feel free to enhance this README with additional details, instructions, or usage examples to provide a more comprehensive understanding of the Two Tower Retrieval Recommendation System.
