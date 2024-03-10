@@ -6,10 +6,11 @@ The Two Tower Retrieval Recommendation System revolutionizes personalized recomm
 ![Tower Architecture](img/two-tower-model-architecture-implemented.png)
 ## Architecture
 
-The Two Tower Retrieval Recommendation System comprises two distinct neural networks: one dedicated to users and the other to items. Each network processes entity-specific features and generates embeddings, representing users and items in a high-dimensional space. This architecture allows the system to capture intricate user preferences and detailed item characteristics for precise recommendation matching.
+The Two Tower Retrieval Recommendation System comprises two distinct neural networks: one dedicated to users query and the other to items. Each network processes entity-specific features and generates embeddings of 22-dimension, representing users query and items in a high-dimensional space. This architecture allows the system to capture intricate user preferences and detailed item characteristics for precise recommendation matching.
 
 ![Two Tower Architecture](img/model.png)
 ## Training
+Prepared the AmazonProductSearch MiniDataset(150k) containing user query and product attributes. Ensured that the dataset is well-labeled and split into appropriate training and validation sets.
 The Two Tower Recommendation System is trained using binary cross-entropy as the loss function. The system utilizes Hugging Face Transformer for generating embeddings. We employ the DistilBERT model, specifically distilbert-base-uncased, for embedding generation.
 ![Architecture](img/Instagram-Explore-Ranking_image2.webp)
 ## Online Retrieval
@@ -49,6 +50,11 @@ To use the Two Tower Retrieval Recommendation System, follow these steps:
 4. Deploy the trained model for online retrieval, ensuring to generate user embeddings dynamically and utilize an approximate nearest neighbors (ANN) search service for efficient item retrieval.
 
 Experiment with different hyperparameters, data preprocessing techniques, and model architectures to optimize the system's performance further.
+
+## Conclusion
+The Two Tower Recommendation System with the AmazonProductSearch MiniDataset offers a powerful solution for personalized recommendation tasks. By leveraging state-of-the-art techniques such as transfer learning with DistilBERT and binary cross-entropy loss, this system can efficiently match user preferences with relevant items from the AmazonProductSearch MiniDataset, enhancing user experience and engagement.
+
+
 
 ## Author
 
