@@ -8,7 +8,7 @@ The Two Tower Retrieval Recommendation System revolutionizes personalized recomm
 
 The Two Tower Retrieval Recommendation System comprises two distinct neural networks: one dedicated to users and the other to items. Each network processes entity-specific features and generates embeddings, representing users and items in a high-dimensional space. This architecture allows the system to capture intricate user preferences and detailed item characteristics for precise recommendation matching.
 
-![Two Tower Architecture](model.png)
+![Two Tower Architecture](img/model.png)
 
 ## Files Included
 
